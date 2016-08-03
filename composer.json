@@ -1,0 +1,28 @@
+{
+    "name": "reatang/fastdfs-php-client",
+    "description": "FastDFS PHP Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reatang",
+            "email": "tangtang1251@qq.com"
+        }
+    ],
+    "require": {
+        "ext-fastdfs_client" : "1.00"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0"
+    },
+    "autoload": {
+        "psr-4": {"FastDFS\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"FastDFS\\": "tests"}
+    },
+    "repositories": [
+        {"type": "composer", "url": "https://packagist.phpcomposer.com"},
+        {"packagist": false}
+    ]
+}
